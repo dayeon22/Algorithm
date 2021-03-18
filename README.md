@@ -1,1 +1,2 @@
-# problem-solving
+# Algorithm
+알고리즘과 자료구조를 공부하는 공간입니다.
