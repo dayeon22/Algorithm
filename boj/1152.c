@@ -2,13 +2,18 @@
 
 int main()
 {
-	char str[1000000];
+	char str[1000001];
 	int i = 0;
 	int cnt = 0;
 
 	scanf("%[^\n]", str);
 	while (str[i])
 		i++;
+	if (i == 1 && str[0] == ' ')
+	{
+		printf("0");
+		return (0);
+	}
 	while (str[--i] == ' ')
 		str[i] = 0;
 	i = 0;
